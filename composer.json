@@ -1,5 +1,5 @@
 {
-    "name": "norkunas/youtube-dl-php",
+    "name": "bilalghouri/youtube-dl-php",
     "description": "youtube-dl wrapper for php",
     "keywords": ["youtube", "youtube-dl"],
     "require": {
