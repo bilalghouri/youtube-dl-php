@@ -153,7 +153,7 @@ class YoutubeDl
     }
 
     /**
-     * Download.
+     * Download
      *
      * @param mixed $url Url or array of urls to download
      *
