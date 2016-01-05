@@ -11,11 +11,11 @@ class Mapper
      */
     protected $mappers = [
         'upload_date' => 'UploadDateMapper',
-        'annotations' => 'AnnotationsMapper',
+       // 'annotations' => 'AnnotationsMapper', // not required
         'formats' => 'FormatsMapper',
         'thumbnails' => 'ThumbnailsMapper',
-        'categories' => 'CategoriesMapper',
-        'subtitles' => 'SubtitlesMapper',
+        //'categories' => 'CategoriesMapper',  // not required
+        //'subtitles' => 'SubtitlesMapper',  // not required
     ];
 
     /**
