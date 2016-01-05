@@ -1,3 +1,6 @@
+# Note
+Please use the original repository [youtube-dl-php](https://github.com/norkunas/youtube-dl-php), this is a customized fork.
+
 # Youtube-dl PHP
 A PHP wrapper for [youtube-dl](https://github.com/rg3/youtube-dl) tool.
 
