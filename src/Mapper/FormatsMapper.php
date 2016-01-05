@@ -8,7 +8,6 @@ class FormatsMapper implements MapperInterface
 {
     public function map($data)
     {
-        echo 'loaded formats';
         $formats = [];
 
         foreach ($data as $format) {
