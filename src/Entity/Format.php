@@ -17,6 +17,11 @@ class Format
     /**
      * @var string
      */
+    protected $resolution;
+
+    /**
+     * @var string
+     */
     protected $url;
 
     /**
@@ -113,6 +118,14 @@ class Format
     public function getProtocol()
     {
         return $this->protocol;
+    }
+
+    /**
+     * @return string
+     */
+    public function getResolution()
+    {
+        return $this->resolution;
     }
 
     /**
