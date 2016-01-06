@@ -12,6 +12,11 @@ class Format
     /**
      * @var string
      */
+    protected $protocol;
+
+    /**
+     * @var string
+     */
     protected $url;
 
     /**
@@ -100,6 +105,14 @@ class Format
     public function getFormat()
     {
         return $this->format;
+    }
+
+    /**
+     * @return string
+     */
+    public function getProtocol()
+    {
+        return $this->protocol;
     }
 
     /**
