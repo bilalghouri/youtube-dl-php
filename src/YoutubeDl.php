@@ -188,8 +188,8 @@ class YoutubeDl
                 throw $e;
             }
         }
-
-        if ($parts = explode("\n", trim($process->getOutput()))) {
+        $output = trim(str_replace("/usr/local/bin/youtube-dl/youtube_dl/extractor/vevo.py:236: FutureWarning: The behavior of this method will change in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.", "", $process->getOutput()));
+        if ($parts = explode("\n", $output)) {
             $mapper = new Mapper($this->downloadPath ?: getcwd());
 
             if (count($parts) > 1) {
