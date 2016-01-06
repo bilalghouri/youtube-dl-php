@@ -105,6 +105,11 @@ class Format
     protected $filesize;
 
     /**
+     * @var int
+     */
+    protected $vbr;
+
+    /**
      * @return string
      */
     public function getFormat()
@@ -262,5 +267,13 @@ class Format
     public function getFilesize()
     {
         return $this->filesize;
+    }
+
+    /**
+     * @return int
+     */
+    public function getVbr()
+    {
+        return $this->vbr;
     }
 }
